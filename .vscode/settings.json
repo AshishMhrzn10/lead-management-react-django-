@@ -1,3 +1,4 @@
 {
-    "python.pythonPath": "/home/ashish/Desktop/projects/django/react+django/venv/bin/python"
+    "python.pythonPath": "/home/ashish/Desktop/projects/django/react+django/venv/bin/python",
+    "git.ignoreLimitWarning": true
 }
