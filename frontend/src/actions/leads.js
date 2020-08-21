@@ -33,7 +33,7 @@ export const deleteLead = (id) => (dispatch, getState) => {
     .catch((err) => console.log(err));
 };
 
-//ADD LEADS
+//ADD LEAD
 export const addLead = (lead) => (dispatch, getState) => {
   axios
     .post("/api/leads/", lead, tokenConfig(getState))
